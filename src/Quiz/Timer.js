@@ -8,6 +8,6 @@ function Timer() {
       setSeconds("BOOM!");
     }
   });
-  return <div>{seconds}</div>;
+  return (<div>{seconds}</div>);
 }
 export default Timer;
